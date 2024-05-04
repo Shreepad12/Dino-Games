@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+ }
+/* body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoq4_ZKkSNqLXsPV5z167AZXswNET5nwVZziA-HWSC&s   ");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+ nav {
+    position: relative;
+   background-color: aqua;
+   height: 60px;
+   top: 0px;
+   left: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Micro 5 Charted", sans-serif;
+   font-size: 50px;
+  }
+ 
+ .game-cont{
+    position: relative;
+    height: 200px;
+    width: 500px;
+    top: 200px;
+    left: 500px;
+    border: 8px double rgb(157, 0, 255);
+    /* background-color: white; */
+    background-image: url(https://media1.giphy.com/media/ghiMEnnnIE5xe/200w.gif?cid=6c09b95282ev2nfwptasudm61mhswknifud5176a0jjdirq&ep=v1_gifs_search&rid=200w.gif&ct=s);
+    background-size: 30%;
+    background-repeat: repeat-x;
+}
+.dino{
+    height: 50px;
+    width: 20px;
+    position: relative;
+    top: 150px;
+    background-image: url(https://e7.pngegg.com/pngimages/528/700/png-clipart-subway-surfers-dinosaur-game-android-dinosaur-thumbnail.png);
+    background-size: cover;
+    background-position: center;
+    /* background-color: rebeccapurple; */
+    background-size: 270%;
+}
+.jump{
+    animation: jump 0.5s ease-in-out 1;
+}
+@keyframes jump {
+    50%{
+        top: 100px;
+    }            
+}
+.block{
+    height: 20px;
+    width: 10px;
+    /* background-color: aqua; */
+    background-image: url("C:\Users\Admin\Desktop");
+    background-image: url(https://png.pngtree.com/png-vector/20190119/ourmid/pngtree-cute-cactus-green-cactus-cartoon-cactus-cactus-png-image_474737.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: move 5s linear infinite;
+}
+@keyframes move {
+    0%{
+        left: 480px;
+    }
+    100%{
+        left: -3px;
+    }
+}
+.score{
+    position: absolute;
+    top: 150px;
+    left: 45%;
+    font-size: 40px;
+    /* font-family: "Micro 5 Charted", sans-serif; */
+}
